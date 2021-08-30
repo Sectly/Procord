@@ -1,0 +1,55 @@
+/**
+* @name Procord
+* @version 1.0.0
+* @author Sectly_playz#1404
+* @authorId 587708664488656933
+* @description Am Pro.
+**/
+
+@import url(https://kaiidoo.github.io/Newcord/src/main.css);
+
+/* Colorize Discord's boring SVGs */
+@import url(https://nyri4.github.io/Discolored/main.css);
+
+/* Change the images of the friends tabs ("Online", "All", "Pending", "Blocked" and "Add a friend") */
+@import url(https://kaiidoo.github.io/Newcord/src/stuff/assets.css);
+
+/* Add icons on the personal and server settings */
+@import url(https://kaiidoo.github.io/Newcord/src/stuff/icons.css);
+
+/* To center the Discord window and add it a background */
+@import url(https://kaiidoo.github.io/Newcord/src/stuff/paddingWindow.css);
+
+/* You can change the color of many things like the status, Windows buttons (if you use the padding Window) and more ...
+by choosing among the following proposals:
+    → basic
+    → pastel
+    → soft
+Test them all to see witch colors are the best for you ! :D
+
+/*												  Replace this ↓↓↓↓↓			*/
+@import url(https://kaiidoo.github.io/Newcord/src/stuff/colors/basic.colors.css);
+
+/*Unread channels rainbow wave*/
+.wrapper-2jXpOf.modeUnread-1qO3K1 .name-23GUGE {
+    background-image: linear-gradient(to left,rgb(51, 255, 0), rgb(255, 230, 0), red, rgb(234, 0, 255), rgb(0, 140, 255), rgb(51, 255, 0));
+    animation: gradient-border 3s linear infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    position: relative;
+    z-index: 1;
+}
+@keyframes gradient-border {
+    0%, 200% {
+        background-position: 0 0;
+    }
+
+    99.999999999999999% {
+        background-position: 130% 0;
+    }
+}
+
+.unread-1xRYoj{
+    background:var(--primary-color)!important
+}
